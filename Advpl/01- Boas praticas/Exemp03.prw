@@ -18,15 +18,13 @@ User Function Exempl03()
         resumida oque a função faz. Abaixo a chamada da função U_cadProd()
         que tem o proposito de cadastrar um produto.
     */
-    U_cadProd() //Chamada de função de usuario de outro fonte.
+    U_cadProd() 
 
-    U_Exemp02A()//Chamada de função de usuario do mesmo fonte.
-
-     /*
-        Exemplo de chamada de uma função estatica, uma função estática só pode ser chamada dentro do arquivo
-        em que foi declarada:
+    /*
+        Outro exemplo com uma função estatica, nesse caso a função tem o 
+        objeto de calcular um total da rotina.
     */
-    Exempl02B()
+    calcTotal()
 	
 Return
 
